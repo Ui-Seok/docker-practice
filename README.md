@@ -13,5 +13,7 @@ pip3 freeze
 
 ## Docker image build 하기
 docker build . -t {만들고 싶은 image 이름:태그}
+
 -> . 은 현재 디렉토리를 의미
+
 -> 태그에 아무것도 안쓰면 자동으로 "latest"로 만들어짐
